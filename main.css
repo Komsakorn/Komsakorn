@@ -30,7 +30,7 @@ body{
     font-size: 50px;
     color: white;
   }
-  .title{
+  .job{
     font-family: 'Prompt', sans-serif;
     font-size: 30px;
     color: white;
@@ -44,4 +44,38 @@ body{
     padding-right: 50px;
     margin-right: 10px;
     margin-bottom: 20px;
+  }
+  .heading{
+    font-family: 'OCR A Extended';
+    font-size: 60px;
+    color: #050622;
+    padding-bottom: 60px;
+  }
+  .p-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 135px;
+    padding-right: 50px;
+  }
+  .p-info-child{
+    font-family: 'Prompt', sans-serif;
+    font-size: 50px;
+    color: #050622;
+    display: flex;
+  }
+  div.p-info-child> * {padding-bottom: 45px;}
+
+  .left-align{
+padding-right: 100px ;
+  }
+
+  .skills{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 135px;
+    padding-right: 50px;
   }
