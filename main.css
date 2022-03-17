@@ -1,14 +1,13 @@
 /*---- Title ----*/
-html {
-  height: 3510px;
-    width: 2487px;
-}
+
 body{
   display: flex;
+  margin: 0px;
 }
 .left-side{
   display: flex;
   flex-direction: column;
+  margin-left: 65px;
 }
 .right-side{
   display: flex;
@@ -19,10 +18,9 @@ body{
     max-height: 503px;
     padding-left: 80px;
     padding-top: 260px;
-    padding-bottom: 280px;
-    padding-right: 50px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 300px;
+    padding-right: 60px;
+    margin-bottom: 45px;
     background-color: #030325;
   }
   .name{
@@ -32,31 +30,22 @@ body{
   }
   .job{
     font-family: 'Prompt', sans-serif;
-    font-size: 30px;
+    font-size: 55px;
+    font-weight: 100;
     color: white;
-  }
-  .container {
-    max-width: 734px;
-    max-height: 503px;
-    padding-left: 80px;
-    padding-top: 260px;
-    padding-bottom: 280px;
-    padding-right: 50px;
-    margin-right: 10px;
-    margin-bottom: 20px;
   }
   .heading{
     font-family: 'OCR A Extended';
     font-size: 60px;
     color: #050622;
     padding-bottom: 60px;
+    font-weight: bold;
   }
   .p-info{
     display: flex;
     flex-direction: column;
     padding-left: 80px;
-    padding-top: 20px;
-    padding-bottom: 135px;
+    padding-bottom: 70px;
     padding-right: 50px;
   }
   .p-info-child{
@@ -71,11 +60,46 @@ body{
 padding-right: 100px ;
   }
 
+  .profile{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-bottom: 75px;
+    padding-right: 50px;
+  }
+  .profile-paragraph{
+    max-width: 965px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 50px;
+    color: #050622;
+  }
   .skills{
     display: flex;
     flex-direction: column;
     padding-left: 80px;
-    padding-top: 20px;
     padding-bottom: 135px;
     padding-right: 50px;
+    max-width: 1100px;
+  }
+
+  .sub-heading{
+    font-family: 'Prompt', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #050622;
+  }
+  .lang-list{
+    font-family: 'Prompt', sans-serif;
+    font-size: 50px;
+    color: #050622;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+  }
+  .skill-info{
+    font-family: 'Prompt', sans-serif;
+    font-size: 50px;
+    color: #050622;
   }
