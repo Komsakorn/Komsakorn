@@ -47,8 +47,9 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 80px;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
     padding-right: 50px;
+    padding-top: 25px;
   }
   .p-info-child{
     font-family: 'Prompt', sans-serif;
@@ -71,6 +72,7 @@ padding-right: 100px ;
   }
   .paragraph{
     max-width: 965px;
+    line-height: 1.2;
     font-family: 'Prompt', sans-serif;
     font-size: 50px;
     color: #050622;
@@ -90,7 +92,7 @@ padding-right: 100px ;
     font-weight: bold;
     color: #050622;
   }
-  .lang-list{
+  .list{
     font-family: 'Prompt', sans-serif;
     font-size: 50px;
     color: #050622;
@@ -120,3 +122,17 @@ padding-right: 100px ;
     padding-bottom: 20px;
   }
   div.exp> * {padding-bottom: 45px;}
+
+  .job-paragraph{
+    max-width: 1120px;
+    line-height: 1.2;
+    font-family: 'Prompt', sans-serif;
+    font-size: 50px;
+    color: #050622;
+  }
+  div.education> * {padding-bottom: 45px;}
+
+  .cert-training{
+    padding-bottom: 20px;
+  }
+  div.per-proj> * {padding-bottom: 60px;}
