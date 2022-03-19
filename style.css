@@ -12,7 +12,7 @@ body{
 .right-side{
   display: flex;
   flex-direction: column;
-  max-width: 71.875em;
+  max-width: 90.875em;
 }
   .container-color {
     max-width: 45.875em;
@@ -149,6 +149,7 @@ padding-right: 2em ;
     padding-bottom: 3.75em;
   }
   div.education> * {padding-bottom: 2.8125em;}
+
   .cert-training{
     padding-bottom: 1.875em;
   }
