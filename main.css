@@ -12,13 +12,14 @@ body{
 .right-side{
   display: flex;
   flex-direction: column;
+  max-width: 1150px;
 }
   .container-color {
     max-width: 734px;
     max-height: 503px;
     padding-left: 80px;
     padding-top: 260px;
-    padding-bottom: 300px;
+    padding-bottom: 330px;
     padding-right: 60px;
     margin-bottom: 45px;
     background-color: #030325;
@@ -33,6 +34,7 @@ body{
     font-size: 55px;
     font-weight: 100;
     color: white;
+    padding-top: 60px;
   }
   .heading{
     font-family: 'OCR A Extended';
@@ -67,7 +69,7 @@ padding-right: 100px ;
     padding-bottom: 75px;
     padding-right: 50px;
   }
-  .profile-paragraph{
+  .paragraph{
     max-width: 965px;
     font-family: 'Prompt', sans-serif;
     font-size: 50px;
@@ -103,3 +105,18 @@ padding-right: 100px ;
     font-size: 50px;
     color: #050622;
   }
+  .faded-text{
+    font-family: 'Prompt', sans-serif;
+    font-size: 50px;
+    color: #8b8b93;
+  }
+  .qr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .exp{
+    padding-top: 125px;
+    padding-bottom: 20px;
+  }
+  div.exp> * {padding-bottom: 45px;}
