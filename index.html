@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Komsakorn Jiarawish Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./font/font.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,25 +61,26 @@
                 <li>Korean &nbsp; (Beginner)</li>
                 <li>Japanese &nbsp; (Beginner)</li>
             </ul>
-            <div><text class="sub-heading"> Interpersonal Skills </text><br><text class="skill-info" style="margin-left: 80px;">(Growth Mindset, Persistance,
+            <div><text class="sub-heading"> Interpersonal Skills </text><br><text class="skill-info">(Growth Mindset, Persistance,
                 Personal Responsibility, Proactiveness, Teamwork) </text></div>
-            <div><text class="sub-heading"> Coding Skills </text><br><text class="skill-info" style="margin-left: 80px;">(HTML, CSS, Javascript, C++, C#, React, Version Control) </text></div>
-            <div><text class="sub-heading"> Media Skills </text><br><text class="skill-info" style="margin-left: 80px;">(VEGAS, Photoshop, Audacity) </text></div>
-            <div><text class="sub-heading"> Animation Skills </text><br><text class="skill-info" style="margin-left: 80px;">(Blender, SFM)</text></div>
-            <div><text class="sub-heading"> Others </text><br><text class="skill-info" style="margin-left: 80px;">(Scratch, RPG Maker, Unity,
+            <div><text class="sub-heading"> Coding Skills </text><br><text class="skill-info">(HTML, CSS, Javascript, C++, C#, React, Version Control) </text></div>
+            <div><text class="sub-heading"> Media Skills </text><br><text class="skill-info">(VEGAS, Photoshop, Audacity) </text></div>
+            <div><text class="sub-heading"> Animation Skills </text><br><text class="skill-info">(Blender, SFM)</text></div>
+            <div><text class="sub-heading"> Others </text><br><text class="skill-info">(Scratch, RPG Maker, Unity,
                 Unreal Engine, Microsoft Office) </text></div>
         </div>
 </div>
 <div class="right-side">
     <div class="qr">
-        <text class="faded-text" style="font-size: 30px;"> (Full Portfolio QRCode)</text>
-        <img src="./src/portfolio-qr.png" alt="portfolio-qrcode" style="width: 20%;"/>
+        <text class="faded-text" id="qr-text"> (Full Portfolio QRCode)</text>
+        <img src="./src/portfolio-qr.png" alt="portfolio-qrcode" id="qr-pic"/>
     </div>
     <div class="exp">
         <div class="heading"> Work Experience </div>
         <div class="sub-heading"> Air Traffic Controller Internship<br> Kamphaengsaen Flying Training School<br> Oct 2020 - Jan 2021 </div>
-        <div class="job-paragraph">- Working with military officers, using English for air to air communication
-            , provide separation between aircraft, Using AFTN network, record NOTAM and flight statistics with computers and coordinating with other units.</div>
+        <div class="job-paragraph">- Worked with military officers, Used English for air to air communication
+            , provided RADAR service, instruction and separation between aircraft
+            , Monitored AFTN network, recorded NOTAM and flight statistics with computers and coordinated with other units.</div>
     </div>
     <div class="education">
             <div><text class="heading"> Education </text></div>
@@ -93,10 +95,10 @@
             </div>
     </div>
     <div class="cert-training">
-            <div style="padding-bottom: 60px;"><text class="heading"> Certification and Training </text></div>
-                <ul class="list" style="line-height: 1.2;">
+            <div id="cert-heading"><text class="heading"> Certification and Training </text></div>
+                <ul class="list" id="cert-list">
                 <li>Junior Software Developer Bootcamp by Generation Thailand & Skooldio</li>
-                <text class="faded-text" style="font-size: 47px;"> (3 months HTML,CSS,Javascript,React,MongoDB)</text>
+                <text class="faded-text" id="generation"> (3 months HTML,CSS,Javascript,React,MongoDB)</text>
                 <li>TOEIC Score 835</li>
                 <li>Codecademy Learn C# Certification</li>
                 <li>Codecademy Learn React Certification</li>
@@ -104,25 +106,29 @@
                 </ul>
     </div>
     <div class="per-proj">
-        <div><text class="heading"> Personal Project </text></div>
-        <div> 
-            <ul class="list">
-            <li>Spotipie (Spotify Music Playlist Maker)</li>
-            <a href="https://spotipie-lymphocyte.surge.sh" class="faded-text"> https://spotipie-lymphocyte.surge.sh</a>
-            <li>js-2048 (Mini Mathematical Game)</li>
-            <a href="https://komsakorn.github.io/js-2048/" class="faded-text"> https://komsakorn.github.io/js-2048/</a>
+        <div><text class="heading" id="per-proj-heading"> Personal Project </text></div>
+        <div class="list"> 
+            <ul>
+            <div class="proj-list-child">
+                <li>Spotipie (Spotify Music Playlist Maker)</li>
+                <a href="https://spotipie-lymphocyte.surge.sh" class="faded-text"> https://spotipie-lymphocyte.surge.sh</a>
+            </div>
+            <div id="proj-list-child-2" class="proj-list-child">
+                <li>js-2048 (Mini Mathematical Game)</li>
+                <a href="https://komsakorn.github.io/js-2048/" class="faded-text"> https://komsakorn.github.io/js-2048/</a>
+            </div>
             </ul>
         </div>
     </div>
     <div class="interest">
-    <text class="heading"> Interest </text>
-    <ul class="list">
-        <li>Novel Writing</li>
-        <li>Video Editing</li>
-        <li>Videogames Review</li>
-        <li>Animation</li>
-        <li>Coding/Moding games</li>
-    </ul>
+        <div><text class="heading"> Interest </text></div>
+        <div><ul class="list">
+            <li>Novel Writing</li>
+            <li>Video Editing</li>
+            <li>Videogames Review</li>
+            <li>Animation</li>
+            <li>Coding/Moding games</li>
+        </ul></div>
     </div>
 </div>
 </body>
