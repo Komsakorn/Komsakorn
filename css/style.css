@@ -137,7 +137,9 @@ padding-right: 2em ;
     padding-bottom: 1.25em;
   }
   div.exp> * {padding-bottom: 1.6125em;}
-
+  #work-exp-head{
+    padding-bottom: 2.45em;
+  }
   .exp-paragraph{
     max-width: 111.25em;
     line-height: 1.2;
