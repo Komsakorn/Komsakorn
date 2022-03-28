@@ -120,17 +120,25 @@ padding-right: 1em ;
     font-family: 'Prompt', sans-serif;
     color: #8b8b93;
   }
+  .qr-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
   .qr{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     flex-direction: column-reverse;
   }
   #qr-text{
     font-size: 0.94em
   }
-  #qr-pic{
-    width: 20%;
+  #cv-pic{
+    width: 50%;
+  }
+  #port-pic{
+    width: 50%;
   }
   .exp{
     padding-top: 2.78em;
