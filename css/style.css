@@ -1,0 +1,200 @@
+/*---- Title ----*/
+
+body {
+  display: flex;
+  margin: 0px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  max-width: 45em;
+}
+.container-color {
+  max-width: 23em;
+  max-height: 18em;
+  padding-left: 2.5em;
+  padding-top: 8.125em;
+  padding-bottom: 10em;
+  padding-right: 1.875em;
+  margin-bottom: 1.5em;
+  background-color: #030325;
+}
+.name {
+  font-family: "OCR A Extended";
+  font-size: 1.6em;
+  color: white;
+}
+.job {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.7em;
+  font-weight: 100;
+  color: white;
+  padding-top: 1.4em;
+}
+.heading {
+  font-family: "OCR A Extended";
+  font-size: 1.875em;
+  color: #050622;
+  padding-bottom: 0.75em;
+  font-weight: bold;
+}
+.p-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5em;
+  padding-bottom: 2.8em;
+  padding-right: 1.56em;
+  padding-top: 1.75em;
+}
+.p-info-child {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.56em;
+  line-height: 1.8em;
+  color: #050622;
+  display: flex;
+}
+
+.left-align {
+  padding-right: 1em;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5em;
+  padding-bottom: 2.35em;
+  padding-right: 1.56em;
+}
+.paragraph {
+  max-width: 10.65em;
+  line-height: 0.6em;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.56em;
+  color: #050622;
+}
+
+.pro-paragraph {
+  max-width: 20em;
+  line-height: 1.8em;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.56em;
+  color: #050622;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5em;
+  padding-bottom: 4.22em;
+  padding-right: 1.56em;
+  max-width: 40em;
+}
+
+.sub-heading {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.56em;
+  font-weight: bold;
+  color: #050622;
+}
+.list {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.56em;
+  color: #050622;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-left: 1.25em;
+  margin-bottom: 0px;
+}
+.skill-info {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.56em;
+  color: #050622;
+  margin-left: 2.5em;
+}
+.faded-text {
+  font-family: "Prompt", sans-serif;
+  color: #8b8b93;
+}
+.qr-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.qr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+}
+#qr-text {
+  font-size: 0.94em;
+}
+#cv-pic {
+  width: 50%;
+}
+#port-pic {
+  padding-top: 3em;
+  width: 50%;
+  max-width: 25.625em;
+}
+.exp {
+  padding-top: 2.78em;
+  padding-bottom: 1.5em;
+}
+div.exp > * {
+  padding-bottom: 0.81em;
+}
+#work-exp-head {
+  padding-bottom: 1.225em;
+}
+.exp-paragraph {
+  max-width: 55.625em;
+  line-height: 1.2;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.56em;
+  color: #050622;
+}
+.education {
+  padding-bottom: 1em;
+}
+.edu-paragraph {
+  line-height: 1.6;
+}
+div.education > * {
+  padding-bottom: 1.41em;
+}
+
+.cert-training {
+  padding-bottom: 0.94em;
+}
+#cert-heading {
+  padding-bottom: 1.875em;
+}
+
+#cert-list {
+  line-height: 1.2;
+}
+#per-proj-heading {
+  padding-bottom: 1.25em;
+}
+.proj-list-child {
+  line-height: 1.2;
+  padding-bottom: 1.1em;
+}
+div.interest > * {
+  padding-bottom: 1.41em;
+}
+
+.external-link-icon {
+  padding-left: 0.5em;
+  width: 3%;
+}
+.app-icon {
+  padding-left: 0.5em;
+  width: 5%;
+}
