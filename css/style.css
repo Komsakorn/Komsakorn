@@ -38,10 +38,10 @@ body {
 }
 .heading {
   font-family: "OCR A Extended";
-  font-size: 1.875em;
+  font-size: 2em;
   color: #050622;
   padding-bottom: 0.75em;
-  font-weight: bold;
+  font-weight: 600;
 }
 .p-info {
   display: flex;
@@ -101,7 +101,7 @@ body {
 .sub-heading {
   font-family: "Prompt", sans-serif;
   font-size: 1.56em;
-  font-weight: bold;
+  font-weight: 600;
   color: #050622;
 }
 #lang-skill {
