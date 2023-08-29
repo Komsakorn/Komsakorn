@@ -141,10 +141,8 @@ body {
 #qr-text {
   font-size: 0.94em;
 }
-#cv-pic {
-  width: 50%;
-}
-#port-pic {
+
+#qr-pic {
   padding-top: 3em;
   width: 50%;
   max-width: 25.625em;
