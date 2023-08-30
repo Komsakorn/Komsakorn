@@ -18,7 +18,7 @@ body {
   max-width: 23em;
   max-height: 18em;
   padding-left: 2.5em;
-  padding-top: 8.125em;
+  padding-top: 6.125em;
   padding-bottom: 10em;
   padding-right: 1.875em;
   margin-bottom: 1.5em;
@@ -47,7 +47,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 2.5em;
-  padding-bottom: 1.8em;
+  padding-bottom: 0.8em;
   padding-right: 1.56em;
   padding-top: 1.75em;
 }
@@ -67,7 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 2.5em;
-  padding-bottom: 2.35em;
+  padding-bottom: 0.4em;
   padding-right: 1.56em;
 }
 .paragraph {
@@ -89,13 +89,13 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 2.5em;
-  padding-bottom: 4.22em;
+  padding-bottom: 1.56em;
   padding-right: 1.56em;
   max-width: 40em;
+  line-height: 1.25;
 }
 .skill-column {
   display: flex;
-  flex-direction: column;
   padding-top: 1.56em;
 }
 .sub-heading {
@@ -103,9 +103,10 @@ body {
   font-size: 1.56em;
   font-weight: 600;
   color: #050622;
+  width: 10.92em;
 }
 #lang-skill {
-  padding-bottom: 1em;
+  padding-top: 0em;
 }
 .list {
   font-family: "Prompt", sans-serif;
@@ -116,12 +117,16 @@ body {
   margin-top: 0px;
   margin-left: 1.25em;
   margin-bottom: 0px;
+  list-style-type: none;
 }
 .skill-info {
   font-family: "Prompt", sans-serif;
   font-size: 1.56em;
   color: #050622;
   margin-left: 2.5em;
+}
+#game-dev-skill {
+  padding-top: 0.4em;
 }
 .faded-text {
   font-family: "Prompt", sans-serif;
@@ -143,13 +148,12 @@ body {
 }
 
 #qr-pic {
-  padding-top: 3em;
+  padding-top: 1.56em;
   width: 50%;
   max-width: 25.625em;
 }
 .exp {
-  padding-top: 2.78em;
-  padding-bottom: 1.5em;
+  padding-top: 1.78em;
 }
 div.exp > * {
   padding-bottom: 0.81em;
@@ -157,6 +161,11 @@ div.exp > * {
 #work-exp-head {
   padding-bottom: 1.225em;
 }
+
+#sub-heading-exp {
+  width: fit-content;
+}
+
 .exp-paragraph {
   max-width: 55.625em;
   line-height: 1.2;
@@ -164,6 +173,10 @@ div.exp > * {
   font-size: 1.56em;
   color: #050622;
 }
+#last-exp-para {
+  padding-bottom: 0.5em;
+}
+
 .education {
   padding-bottom: 1em;
 }
@@ -183,6 +196,7 @@ div.education > * {
 
 #cert-list {
   line-height: 1.2;
+  list-style-type: disc;
 }
 #per-proj-heading {
   padding-bottom: 1.25em;
@@ -191,9 +205,12 @@ div.education > * {
   line-height: 1.2;
   padding-bottom: 0.4em;
 }
-div.interest > * {
-  padding-top: 1.41em;
-  padding-bottom: 0.5em;
+.interest-heading {
+  padding-bottom: 0.8em;
+}
+
+#interest-list {
+  list-style-type: disc;
 }
 
 .external-link-icon {
