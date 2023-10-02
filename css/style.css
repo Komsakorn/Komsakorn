@@ -137,14 +137,12 @@ body {
   flex-direction: row;
   justify-content: flex-end;
 }
-.qr {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column-reverse;
-}
+
 #qr-text {
   font-size: 0.94em;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
 }
 
 #qr-pic {
