@@ -49,7 +49,7 @@ body {
   padding-left: 2.5em;
   padding-bottom: 0.8em;
   padding-right: 1.56em;
-  padding-top: 1.75em;
+  padding-top: 0.75em;
 }
 .p-info-child {
   font-family: "Prompt", sans-serif;
@@ -80,7 +80,7 @@ body {
 
 .pro-paragraph {
   max-width: 20em;
-  line-height: 1.8em;
+  line-height: 1.5em;
   font-family: "Prompt", sans-serif;
   font-size: 1.56em;
   color: #050622;
@@ -89,14 +89,17 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 2.5em;
-  padding-bottom: 1.56em;
   padding-right: 1.56em;
+  padding-top: 1em;
   max-width: 40em;
   line-height: 1.25;
 }
 .skill-column {
   display: flex;
   padding-top: 1.56em;
+}
+#other-skill {
+  padding-bottom: 1.5em;
 }
 .sub-heading {
   font-family: "Prompt", sans-serif;
